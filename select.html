@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>关卡选择</title>
+    <style>
+        *{margin:0;padding:0;}
+        .main{
+            height: 300px;
+            padding:20px !important;
+        }
+        #submit{
+            margin-top:50px;
+            background:linear-gradient(90deg,#ff9973 1%,#ff7251 99%);
+        }
+    </style>
+    <script src="js/jquery.js"></script>
+    <link rel="stylesheet" type="text/css" href="layui/css/layui.css">
+    <script src="layui/layui.js"></script>
+    <script>
+        layui.use("form",function () {
+            var form = layui.form;
+        });
+    </script>
+</head>
+<body>
+    <div class="layui-fluid main">
+        <form class="layui-form">
+            <select name="level" id="level">
+                <option value="1">通关模式</option>
+                <option value="2">生存模式</option>
+            </select>
+            <button id="submit" class="layui-btn layui-btn-fluid layui-btn-danger layui-btn-radius">完成</button>
+        </form>
+    </div>
+    <script>
+        sessionStorage.setItem("Model",null);
+        layui.use("layer",function () {
+            var layer = layui.layer;
+        })
+        $(function () {
+            $("#submit").on("click",function () {
+                var value = $("#level").val();
+                    sessionStorage.setItem("Model",value);
+                    sessionStorage.setItem("canClose","true");
+                    layer.msg('设置成功!', {icon: 1});
+                return false;
+            });
+        });
+    </script>
+</body>
+</html>

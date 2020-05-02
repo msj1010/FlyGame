@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>小游戏</title>
+    <script src="js/jquery.js"></script>
+    <link rel="stylesheet" type="text/css" href="layui/css/layui.css">
+    <link rel="stylesheet" href="css/style.css">
+	<script src="layui/layui.js"></script>
+	<script src="js/lib.js"></script>
+    <script type="text/javascript">
+        /*注册组件*/
+        layui.use('layer', function(){
+            var layer = layui.layer;
+        });
+        layui.use("element",function () {
+            var element = layui.element;
+        });
+        layui.use('form', function(){
+            var form = layui.form;
+        });
+    </script>
+</head>
+
+<body>
+    <div class="main">
+        <div class="info">
+            <div class="specific"><span class="info_tip">经验值: 等级:<span id="level">--</span>
+            得分: <span id="point">--</span><span id="addScore"></span>
+            </span>
+                <div class="layui-progress layui-progress-big">
+                    <div class="layui-progress-bar " id="experience" lay-percent="0%">
+                        <div class="score">
+                            <span id="currentExperience">0</span>/<span id="totalExperience">1500</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="specific"><span class="info_tip">生命值:</span>
+                <div class="layui-progress layui-progress-big">
+                    <div class="layui-progress-bar" id="lifeValue" lay-percent="100%">
+                        <div class="score">
+                            <span id="currentLifeValue">1500</span>/<span id="totalLifeValue">1500</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mask"></div>
+        <div class="btngroup" >
+            <button class="layui-btn layui-btn-radius layui-anim layui-anim-scaleSpring" id="startGame">开始游戏</button>
+            <button class="layui-btn layui-btn-radius layui-anim layui-anim-scaleSpring" id="setModel">设置模式</button>
+            <button class="layui-btn layui-btn-radius layui-anim layui-anim-scaleSpring" id="queryList">查看榜单</button>
+            <button class="layui-btn layui-btn-radius layui-anim layui-anim-scaleSpring" id="Method">游戏玩法</button>
+        </div>
+        <div id="view" class="layui-main"></div>
+        <div class="layui-footer">
+            <button class="layui-btn layui-btn-radius" id="endGame">结束游戏</button>
+        </div>
+    </div>
+
+</body>
+<script src="js/script.js"></script>
+<div style="display: block">
+    <div id="playerList"><table class="layui-table">
+        <thead class="layui-table-header">
+        <tr>
+            <th>姓名</th>
+            <th>等级</th>
+        </tr>
+        </thead>
+        <tbody class="layui-table-body">
+        <tr>
+            <td>aaa</td>
+            <td>55</td>
+        </tr>
+        <tr>
+            <td>hhh</td>
+            <td>19</td>
+        </tr>
+    </table>
+    </div>
+    <div id="tips" class="layui-bg-green">
+        通关模式:<hr/>
+        在出现敌机时,按动相应的按键,将发射子弹,击落敌机,获得经验值.未被击落的敌机落下后,将扣减生命值,当生命值为0时,游戏结束.当经验值达到规定值时,游戏晋级.<hr/>
+        生存模式:<hr/>
+        在出现敌机时,按动相应的按键,将发射子弹,击落敌机,获得分数.此模式下,只要未被击落的敌机落下,游戏将立即结束,并显示玩家得分.
+    </div>
+</div>
+
+</html>
