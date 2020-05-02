@@ -14,7 +14,7 @@ git clone https://github.com/msj1010/FlyGame
 
 如果您对项目有更好的建议,或者想与作者交流,欢迎添加QQ:
 
-![image-qq](.\typora-user-images\qq.jpg)
+![image-qq](https://github.com/msj1010/FlyGame/blob/master/typora-user-images/qq.jpg?raw=true)
 
 一个爱好前后端开发,严谨而不失幽默的程序猿小哥哥
 
@@ -24,29 +24,29 @@ git clone https://github.com/msj1010/FlyGame
 
 本项目主要使用了Layui和jQuery框架,在前端技术日新月异的今天,翻看曾经写的一段段代码,仿佛回到了曾经的生活,看到了自己从一个小白跻身IT行业的经历.
 
-![image-20200502110259074](.\typora-user-images\image-20200502110259074.png)
+![image-20200502110259074](https://github.com/msj1010/FlyGame/blob/master/typora-user-images/image-20200502110259074.png?raw=true)
 
 ## 技术选型:
 
-![image-20200502105545864](.\typora-user-images\image-20200502105545864.png)
+![image-20200502105545864](https://github.com/msj1010/FlyGame/blob/master/typora-user-images/image-20200502105545864.png?raw=true)
 
 ## 项目运行截图:
 
-![image-20200502105622360](.\typora-user-images\image-20200502105622360.png)
+![image-20200502105622360](https://github.com/msj1010/FlyGame/blob/master/typora-user-images/image-20200502105622360.png?raw=true)
 
-![image-20200502105649771](.\typora-user-images\image-20200502105649771.png)
+![image-20200502105649771](https://github.com/msj1010/FlyGame/blob/master/typora-user-images/image-20200502105649771.png?raw=true)
 
-![image-20200502105701580](.\typora-user-images\image-20200502105701580.png)
+![image-20200502105701580](https://github.com/msj1010/FlyGame/blob/master/typora-user-images/image-20200502105701580.png?raw=true)
 
 ## 技术亮点:
 
-![image-20200502105737535](.\typora-user-images\image-20200502105737535.png)
+![image-20200502105737535](https://github.com/msj1010/FlyGame/blob/master/typora-user-images/image-20200502105737535.png?raw=true)
 
-![image-20200502105747805](.\typora-user-images\image-20200502105747805.png)
+![image-20200502105747805](https://github.com/msj1010/FlyGame/blob/master/typora-user-images/image-20200502105747805.png?raw=true)
 
-![image-20200502105755139](.\typora-user-images\image-20200502105755139.png)
+![image-20200502105755139](https://github.com/msj1010/FlyGame/blob/master/typora-user-images/image-20200502105755139.png?raw=true)
 
-![image-20200502105800316](.\typora-user-images\image-20200502105800316.png)
+![image-20200502105800316](https://github.com/msj1010/FlyGame/blob/master/typora-user-images/image-20200502105800316.png?raw=true)
 
 ## 展望未来:
 
@@ -64,8 +64,8 @@ git clone https://github.com/msj1010/FlyGame
 
 项目开发不易,作者作为一名大学生,为项目的策划,开发付出了大量的精力,时间.在互联网时代下,作者希望将开源精神发扬到极致,同时作者也需要鼓励.如果您对我的项目感兴趣,欢迎扫码请我喝奶茶.
 
-![image-wx](.\typora-user-images\wx.png)
+![image-wx](https://github.com/msj1010/FlyGame/blob/master/typora-user-images/wx.png?raw=true)
 
-![image-zfb](.\typora-user-images\zfb.jpg)
+![image-zfb](https://github.com/msj1010/FlyGame/blob/master/typora-user-images/zfb.jpg?raw=true)
 
 
